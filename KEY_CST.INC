@@ -1,0 +1,162 @@
+(***********************************************************************)
+(*                                                                     *)
+(*                   Malte System/Constant KeyBoard                    *)
+(*                             1992/05/27                              *)
+(*                                                                     *)
+(*               Copyright (C) par les Chevaliers de Malte             *)
+(*                                                                     *)
+(***********************************************************************)
+
+{$IFNDEF __KBRDCONST__}
+ {$DEFINE __KBRDCONST__}
+
+ Const
+
+          kbNoKey     = $0000;
+          kbEsc       = $011B;
+          kbAltSpace  = $0200;
+          kbCtrlIns   = $0400;
+          kbShiftIns  = $0500;
+          kbCtrlDel   = $0600;
+          kbShiftDel  = $0700;
+          kbBack      = $0E08;
+          kbCtrlBack  = $0E7F;
+          kbShiftTab  = $0F00;
+          kbTab       = $0F09;
+          kbAltQ      = $1000;
+          kbCtrlQ     = $1011;
+          kbAltW      = $1100;
+          kbCtrlW     = $1117;
+          kbAltE      = $1200;
+          kbCtrlE     = $1205;
+          kbAltR      = $1300;
+          kbCtrlR     = $1312;
+          kbAltT      = $1400;
+          kbCtrlT     = $1414;
+          kbAltY      = $1500;
+          kbCtrlY     = $1519;
+          kbAltU      = $1600;
+          kbCtrlU     = $1615;
+          kbAltI      = $1700;
+          kbCtrlI     = $1809;
+          kbAltO      = $1800;
+          kbCtrlO     = $180F;
+          kbAltP      = $1900;
+          kbCtrlP     = $1910;
+          kbCtrlEnter = $1C0A;
+          kbEnter     = $1C0D;
+          kbAltA      = $1E00;
+          kbCtrlA     = $1E01;
+          kbAltS      = $1F00;
+          kbCtrlS     = $1F13;
+          kbAltD      = $2000;
+          kbCtrlD     = $2004;
+          kbAltF      = $2100;
+          kbCtrlF     = $2106;
+          kbAltG      = $2200;
+          kbCtrlG     = $2107;
+          kbAltH      = $2300;
+          kbCtrlH     = $2308;
+          kbAltJ      = $2400;
+          kbCtrlJ     = $240A;
+          kbAltK      = $2500;
+          kbCtrlK     = $250B;
+          kbAltL      = $2600;
+          kbCtrlL     = $260C;
+          kbAltZ      = $2C00;
+          kbCtrlZ     = $2C1A;
+          kbAltX      = $2D00;
+          kbCtrlX     = $2D18;
+          kbAltC      = $2E00;
+          kbCtrlC     = $2E03;
+          kbAltV      = $2F00;
+          kbCtrlV     = $2F16;
+          kbAltB      = $3000;
+          kbCtrlB     = $3002;
+          kbAltN      = $3100;
+          kbCtrlN     = $320E;
+          kbAltM      = $3200;
+          kbCtrlM     = $320D;
+          kbF1        = $3B00;
+          kbF2        = $3C00;
+          kbF3        = $3D00;
+          kbF4        = $3E00;
+          kbF5        = $3F00;
+          kbF6        = $4000;
+          kbF7        = $4100;
+          kbF8        = $4200;
+          kbF9        = $4300;
+          kbF10       = $4400;
+          kbHome      = $4700;
+          kbUp        = $4800;
+          kbPgUp      = $4900;
+          kbGrayMinus = $4A2D;
+          kbLeft      = $4B00;
+          kbRight     = $4D00;
+          kbGrayPlus  = $4E2B;
+          kbEnd       = $4F00;
+          kbDown      = $5000;
+          kbPgDn      = $5100;
+          kbIns       = $5200;
+          kbDel       = $5300;
+          kbShiftF1   = $5400;
+          kbShiftF2   = $5500;
+          kbShiftF3   = $5600;
+          kbShiftF4   = $5700;
+          kbShiftF5   = $5800;
+          kbShiftF6   = $5900;
+          kbShiftF7   = $5A00;
+          kbShiftF8   = $5B00;
+          kbShiftF9   = $5C00;
+          kbShiftF10  = $5D00;
+          kbCtrlF1    = $5E00;
+          kbCtrlF2    = $5F00;
+          kbCtrlF3    = $6000;
+          kbCtrlF4    = $6100;
+          kbCtrlF5    = $6200;
+          kbCtrlF6    = $6300;
+          kbCtrlF7    = $6400;
+          kbCtrlF8    = $6500;
+          kbCtrlF9    = $6600;
+          kbCtrlF10   = $6700;
+          kbAltF1     = $6800;
+          kbAltF2     = $6900;
+          kbAltF3     = $6A00;
+          kbAltF4     = $6B00;
+          kbAltF5     = $6C00;
+          kbAltF6     = $6D00;
+          kbAltF7     = $6E00;
+          kbAltF8     = $6F00;
+          kbAltF9     = $7000;
+          kbAltF10    = $7100;
+          kbCtrlPrtSc = $7200;
+          kbCtrlLeft  = $7300;
+          kbCtrlRight = $7400;
+          kbCtrlEnd   = $7500;
+          kbCtrlPgDn  = $7600;
+          kbCtrlHome  = $7700;
+          kbAlt1      = $7800;
+          kbAlt2      = $7900;
+          kbAlt3      = $7A00;
+          kbAlt4      = $7B00;
+          kbAlt5      = $7C00;
+          kbAlt6      = $7D00;
+          kbAlt7      = $7E00;
+          kbAlt8      = $7F00;
+          kbAlt9      = $8000;
+          kbAlt0      = $8100;
+          kbAltMinus  = $8200;
+          kbAltEqual  = $8300;
+          kbCtrlPgUp  = $8400;
+          kbF11       = $8500;
+          kbF12       = $8600;
+          kbShiftF11  = $8700;
+          kbShiftF12  = $8800;
+          kbCtrlF11   = $8900;
+          kbCtrlF12   = $8A00;
+          kbAltF11    = $8B00;
+          kbAltF12    = $8C00;
+          kbCtrlUp    = $8D00;
+          kbCtrlDown  = $8E00;
+
+{$ENDIF}
